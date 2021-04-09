@@ -1,0 +1,40 @@
+html{
+    background-image: linear-gradient(orange,rgb(255, 60, 0));
+}
+body{
+    margin:auto;
+}
+.site-content{
+    margin: 0 2rem;
+    text-align: center;
+    padding: 5rem 2rem;
+    border-left: 5px outset orangered;
+    border-right: 5px outset orangered;
+    background-color: white;
+    max-height: fit-content;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    background-color: orange;
+    width: 100%;
+}
+#inputTxt{
+    height: 10vh;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    
+}
+.footer{
+    padding: 2rem;
+    background-color: rgb(221, 94, 94);
+    border-top-left-radius:  1rem;
+    max-height: 100%;
+    text-align: center;
+}
+.translateButton{
+    
+}
