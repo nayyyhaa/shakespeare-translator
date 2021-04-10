@@ -21,7 +21,7 @@ function translateFunction(event){
     fetch(finalURL)
         .then(response => response.json())
         .then(json => {
-            outputElement.innerText = "Shakespeare says,'"+json.contents.translated+"'";
+            outputElement.innerText = json.contents.translated;
         })
         .catch(() => alert("Something wrong with the server! Try after sometime"))
 }
