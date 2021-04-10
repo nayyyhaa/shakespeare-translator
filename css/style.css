@@ -1,40 +1,99 @@
-html{
-    background-image: linear-gradient(orange,rgb(255, 60, 0));
+:root{
+    --primary-color: orangered;
+    --secondary-color: rgb(255, 145, 0);
 }
 body{
     margin:auto;
+    background-image: url("/assets/shakespeare2.webp");
+}
+h1{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+header img{
+    margin:auto;
+    width: 100%;
+    height: auto;
+}
+aside {
+    width: 30%;
+    margin: auto;
+    font-style: italic;
+    background-color: lightgray;
+}
+h3{
+    overflow-wrap: break-word;
+}
+.text-content{
+    margin: 3rem;
 }
 .site-content{
-    margin: 0 2rem;
+    margin: 0 1rem;
     text-align: center;
-    padding: 5rem 2rem;
-    border-left: 5px outset orangered;
-    border-right: 5px outset orangered;
+    padding: 2rem 0rem;
+    border-left: 5px outset var(--primary-color);
+    border-right: 5px outset var(--primary-color);
     background-color: white;
-    max-height: fit-content;
     overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-nav{
-    background-color: orange;
-    width: 100%;
+.no-bullet{
+    list-style: none;
+}
+.-inline li {
+    display: inline;
+    padding: 0.5rem;
+}
+.navigation{
+    background-color: var(--secondary-color);
+    background-image: linear-gradient(to bottom right, orange,var(--primary-color));
+    color: white;
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .brand-name{
+    font-weight: bold;
+}
+.navigation ul{
+    text-align: right;
+}
+.navigation li a{
+    color:white;
+    text-decoration: none;
+
+}
+p{
+    background-color: rgb(235, 163, 130);
+    width:auto;
+    display: initial;
+    font-weight: bolder;
 }
 #inputTxt{
     height: 10vh;
+    width: 10rem;
     display: block;
-    margin: 1rem auto;
+    margin: 2rem auto;
     text-align: center;
     
+}
+.button-area{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    align-items: center;
+}
+button{
+    color: var(white);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    max-width: 140px;
+    margin: 1rem auto;
+    display: block;
 }
 .footer{
     padding: 2rem;
     background-color: rgb(221, 94, 94);
-    border-top-left-radius:  1rem;
-    max-height: 100%;
+    border-top-right-radius:  1rem;
     text-align: center;
-}
-.translateButton{
-    
 }
