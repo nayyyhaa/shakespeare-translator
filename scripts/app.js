@@ -23,6 +23,6 @@ function translateFunction(event){
         .then(json => {
             outputElement.innerText = json.contents.translated;
         })
-        .catch(() => alert("Something wrong with the server! Try after sometime"))
+        .catch(() => alert("Shakespeare(Server) is busy! Try after sometime"))
 }
 translateBtnElement.addEventListener("click", translateFunction);
