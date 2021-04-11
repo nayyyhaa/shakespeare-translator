@@ -71,14 +71,14 @@ p{
     font-weight: bolder;
 }
 #inputTxt, #outputTxt{
-    width: 380px;
+    width: 300px;
     display: block;
     margin: 0.5rem auto;
     text-align: center;
     border: 1px solid  black;
     background-color: white;
     font-size: small;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .button-area{
