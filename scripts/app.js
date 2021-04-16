@@ -7,7 +7,7 @@ let translateBtnElement = document.querySelector("#translateButton");
 // show output
 let outputElement = document.querySelector("#outputTxt");
 
-let url="https://shakespeare.p.mashape.com/shakespeare.json";
+let url="https://api.funtranslations.com/translate/shakespeare.json";
 
 function translatedURL(inputValue){
     var encodedURI = encodeURI(inputValue);
